@@ -1,0 +1,157 @@
+/* Whole page */
+
+:root {
+    --font1: Monaco, Helvetica, sans-serif; 
+    --font2: Helvetica, Arial, sans-serif; 
+    --color1: rgb(34, 52, 73);
+    --color2: rgba(23, 44, 68, 0.671);
+    --color3: rgb(149, 203, 212);
+    --color4: rgb(177, 200, 201);
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background-color: rgb(233, 231, 231);
+  }
+
+/* Header */ 
+
+.heading {
+    background-color: var(--color1);
+    font-family: var(--font1);
+    padding: 25px 0;
+    display: inline-block;
+}
+
+#heading1 {
+    font-size: 30px;
+    color: var(--color1);
+    background-color: var(--color3);
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 50px;
+    float: left;
+}
+
+#heading2{
+    font-size: 18px;
+    color: var(--color3);
+    word-spacing: 10px;
+    justify-content: flex-end;
+    background-color: transparent;
+    float: right;
+    padding: 29px 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--color3)
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--color4)
+}
+
+#heading3 {
+    font-family: var(--font1);
+    font-size: 18px;
+    color: var(--color4);
+    padding: 30px;
+    text-align: right;
+}
+
+/* Main sections */
+
+.topsec {
+    display: inline-block;
+    padding-bottom: 200px;
+}
+
+#sec1 {
+    float: left;
+    max-width: 400px;
+    text-align: justify;
+}
+
+#sec2 {
+    float: left;
+    max-width: 400px;
+}
+
+.sections header {
+    color: var(--color1);
+    background-color: var(--color3);
+    font-size: 25px;
+    font-family: var(--font1);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    max-width: fit-content;
+}
+
+.sections div {
+
+    margin: 10px;
+}
+
+img {
+
+    border-radius: 10px;
+    max-width: 45%;
+    z-index: -1;
+}
+
+#img1 {
+    max-width: 100%;
+}
+
+#img3 {
+    position: relative; 
+    top: -110px; 
+    left: 50%; 
+    margin-left: 20px; 
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    padding: 5px 15px;
+    background: var(--color1);
+    margin-top: auto;
+    display: inline-block;
+    font-family: var(--font1);
+    position: fixed;
+    bottom: 0; 
+    right: 0; 
+    left: 0; 
+
+}
+
+#footer1 {
+    font-size: 20px;
+    color: var(--color3);
+    float: left;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+#footer2{
+    font-size: 15px;
+    color: var(--color3);
+    word-spacing: 15px;
+    justify-content: flex-end;
+    background-color: transparent;
+    float: right;
+    padding: 29px 20px;
+}
